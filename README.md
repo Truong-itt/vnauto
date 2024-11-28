@@ -19,7 +19,9 @@
 Cài đặt thư viện dễ dàng bằng pip:
 
 ```bash
+cd vnatuto
 pip install vnauto
+pip install dist/vnauto-1.0.0-py3-none-any.whl
 ```
 
 ---
