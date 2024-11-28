@@ -67,7 +67,7 @@ result = vn_auto.normalize(text)
 Chuyển đổi số sang dạng chữ tiếng Việt.
 ```python
 text = "Hôm nay là ngày 21 tháng 10 năm 2024"
-result = vn_auto.normalize(text)
+result = vnauto.normalize(text)
 # Kết quả: "hôm nay là ngày hai mốt tháng mười năm hai nghìn không trăm hai mươi bốn"
 ```
 
@@ -75,7 +75,7 @@ result = vn_auto.normalize(text)
 Loại bỏ các từ không cần thiết (ví dụ: "là", "của", "và", ...).
 ```python
 text = "Đây là một ví dụ về stopwords"
-result = vn_auto.normalize(text)
+result = vnauto.normalize(text)
 # Kết quả: "Đây ví dụ stopwords"
 ```
 
@@ -83,7 +83,7 @@ result = vn_auto.normalize(text)
 Chuẩn hóa hoặc loại bỏ emoji trong văn bản.
 ```python
 text = "Xin chào 😊! Tôi rất vui 😍"
-result = vn_auto.normalize(text)
+result = vnauto.normalize(text)
 # Kết quả: "xin chào! tôi rất vui"
 ```
 
@@ -91,7 +91,7 @@ result = vn_auto.normalize(text)
 Loại bỏ hoặc chuẩn hóa các ký tự không cần thiết như dấu chấm câu liên tiếp, khoảng trắng thừa.
 ```python
 text = "Hello!!!    Đây là văn   bản  . ."
-result = vn_auto.normalize(text)
+result = vnauto.normalize(text)
 # Kết quả: "hello đây là văn bản"
 ```
 
@@ -139,10 +139,9 @@ Nếu bạn có ý tưởng hoặc muốn đóng góp cho thư viện, hãy mở
 ---
 
 ## **Thông tin liên hệ**
-- **Tác giả**: TruongItt
+- **Tác giả**: [TruongItt](https://github.com/Truong-itt), [Vien Vien](https://github.com/VienVien123) 
 - **Email**: hoduytruong280220@gmail.com
 
 ---
 
 Hãy sử dụng **VnAuto** để chuẩn hóa và xử lý văn bản tiếng Việt dễ dàng hơn bao giờ hết! 😊
-"""
