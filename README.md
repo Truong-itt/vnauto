@@ -31,13 +31,13 @@ pip install vnauto
 from vnauto import get_vnauto_instance
 
 # Tạo đối tượng xử lý
-vn_auto = get_vnauto_instance()
+vnauto = get_vnauto_instance()
 
 # Văn bản cần chuẩn hóa
 text = "Xin chào mn! Hnay là ngày 21/10/2024 :D"
 
 # Chuẩn hóa văn bản
-result = vn_auto.normalize(text)
+result = vnauto.normalize(text)
 print(result)
 ```
 
@@ -59,7 +59,7 @@ print(result)
 Chuyển đổi teencode, từ viết tắt, và các từ sai chính tả về dạng chuẩn.
 ```python
 text = "Ko bít mai có đi học k?"
-result = vn_auto.normalize(text)
+result = vnauto.normalize(text)
 # Kết quả: "không biết mai có đi học không?"
 ```
 
@@ -123,7 +123,7 @@ features = {
     "fix_whitespace": True,
     "clean_underscores": True,
 }
-result = vn_auto.normalize(text, features=features)
+result = vnauto.normalize(text, features=features)
 ```
 
 ---
