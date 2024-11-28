@@ -19,9 +19,7 @@
 Cài đặt thư viện dễ dàng bằng pip:
 
 ```bash
-cd vnatuto
-pip install vnauto
-pip install dist/vnauto-1.0.0-py3-none-any.whl
+pip install vnauto==1.0.0
 ```
 
 ---
@@ -131,12 +129,7 @@ result = vnauto.normalize(text, features=features)
 ---
 
 ## **Tài liệu**
-Tham khảo tài liệu đầy đủ tại [GitHub VnAuto](https://github.com/Truong-itt/vnauto).
-
----
-
-## **Đóng góp**
-Nếu bạn có ý tưởng hoặc muốn đóng góp cho thư viện, hãy mở Pull Request hoặc Issue tại [GitHub Repository](https://github.com/Truong-itt/vnauto).
+Tham khảo tài liệu đầy đủ tại [Pypi VnAuto](https://pypi.org/project/vnauto/1.0.0/).
 
 ---
 
